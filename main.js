@@ -74,4 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!btn_all.classList.contains('clicked')) {
         btn_all.classList.add('clicked');
     }
+
+    const tests = document.querySelectorAll('.test')
+    tests.forEach(button => {
+        button.addEventListener("click", (e) => {
+            e.classList.toggle('bite');
+        })
+    });
 })
+
