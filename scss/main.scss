@@ -95,12 +95,20 @@ body {
             .button-cv {
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
+                text-align: center;
                 padding-bottom: 20px;
+
+                .linkedin-cv {
+                    font-size: 15px;
+                    color: black;
+                }
 
                 button {
                     border: none;
                     padding: 20px;
                     border-radius: 20px;
+                    margin-bottom: 10px;
                     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
                     background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
                     color: white;
