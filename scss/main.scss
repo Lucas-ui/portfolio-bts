@@ -8,7 +8,6 @@ body {
 
     .header {
         width: 100%;
-        height: 150vh;
         background: linear-gradient(to bottom right, #C292DE 10%, #67B3E4 40%, #95A3E0 100%);
         position: relative;
 
@@ -58,7 +57,7 @@ body {
             justify-content: center;
             align-items: center;
             margin-top: 100px;
-            padding-bottom: 250px;
+            padding-bottom: 150px;
 
             .header-title {
                 font-size: 50px;
@@ -138,6 +137,7 @@ body {
             top: -10%;
             margin: 0 auto;
             cursor: pointer;
+            padding-bottom: 50px;
 
             img {
                 width: 100%;
@@ -163,7 +163,7 @@ body {
         }
 
         strong {
-            background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+            background-image: linear-gradient(144deg, #3a1e4e, #5B42F3 50%, #00DDEB);
             background-clip: text;
             color: transparent;
         }
@@ -230,7 +230,6 @@ body {
 
     .experiences {
         text-align: center;
-        height: 70vh;
         background-color: #e6e6e6;
         padding-top: 50px;
 
@@ -338,7 +337,6 @@ body {
     }
 
     .projets {
-        height: 40vh;
 
         .projets-SIO {
 
